@@ -8,9 +8,9 @@ services:
     depends_on:
       - db
     environment:
-      SLACK_APP_TOKEN: 'xapp-1-...'
-      SLACK_BOT_TOKEN: 'xoxb-...'
-      SLACK_USER_TOKEN: 'xoxp-...'
+      SLACK_APP_TOKEN: 'xapp-1-A06ULSKAN2G-6955893753943-ab06fc0cda19c8ce8a0631fb486cdaacf9dc270179737e4b4b6eaf6490c5af0c'
+      SLACK_BOT_TOKEN: 'xoxb-6941968768754-6993228799712-sPFHQaRF8361P6114O3Sx2Ee'
+      SLACK_USER_TOKEN: 'xoxp-6941968768754-6964757228752-6967523048101-675de7ddd989cf73139e06ac17a7017f'
       POSTGRES_HOST: db
       POSTGRES_DB: incident_bot
       POSTGRES_USER: incident_bot
